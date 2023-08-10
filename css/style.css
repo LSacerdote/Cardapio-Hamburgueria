@@ -203,3 +203,27 @@ border: none!important;
   padding-top: 50px;
   padding-bottom: 150px;
 }
+.container-menu {
+  margin-bottom: 40px;
+}
+.card-item {
+  height: 360px;
+
+}
+.card-item .img-produto img {
+  width: 100%;
+  border-radius: 11px;
+}
+.card-item .title-produto {
+  color: var(--color-black);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 0;
+}
+.card-item .price-produto {
+  color: var(--color-primary);
+  font-size: 24px;
+
+}
